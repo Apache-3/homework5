@@ -1,0 +1,40 @@
+body{
+    background-color: chartreuse;
+}
+.todos {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: yellow;
+}
+li {
+    list-style: none;
+    padding: 10px;
+    background-color: darkorange;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+ul {
+    padding: 0;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+}
+.addTodo {
+    display: flex;
+}
+.addTodo input{
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+.addTodo button{
+    padding: 20px;
+    background-color: magenta;
+    width: 150px;
+}
+
